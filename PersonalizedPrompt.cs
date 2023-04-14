@@ -19,4 +19,4 @@
     
     //This code allows you to have your personalized prompt, like a linux or windows terminal, wich is basically: johndoe@john-pc:~$
     //Using this code you can create your own personalized prompt in your program. To use, put all your code inside the while and set your personalized prompy in 
-    'Environment.SetEnvironmentVariable("PROMPT", "$P$G");', change "$P$G" to whatever you want.
+    //'Environment.SetEnvironmentVariable("PROMPT", "$P$G");', change "$P$G" to whatever you want.
