@@ -1,4 +1,4 @@
-﻿using QRCoder;
+using QRCoder;
 using System;
 using System.IO;
 
@@ -33,3 +33,13 @@ class QRGenerator
         Console.WriteLine("QR Code marcado como lido!");
     }
 }
+
+
+/*
+This code crrates a qrcode in your terminal 
+To create the qrcode, you need to download the qrcoder library
+
+
+
+
+*/
