@@ -1,3 +1,16 @@
+/*This code shows you how to use pointers in C# to manipulate the memory directly.
+We first define an array of integers, and then use the fixed keyword to pin it in memory, 
+which means that the garbage collector won't move it around while the program is running.
+We then take a pointer to the array and use pointer arithmetic to iterate over it, print
+its contents, and modify its values by incrementing and decrementing the pointer. Note that 
+this code requires the /unsafe compiler flag to be enabled, since it uses unsafe code and pointer 
+manipulation. Overall, this code demonstrates some of the low-level capabilities of C# and is a 
+great example of how to work with pointers in the language. 
+To run this code, you need to add this to your .csproj file, in   </PropertyGroup>: 
+
+<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+*/
 using System;
 
 unsafe class Program
