@@ -1,6 +1,6 @@
 using System;
 
-//   https://pt.wikipedia.org/wiki/M%C3%A1quina_de_estados_finita
+
 
 public enum VendingMachineState
 {
